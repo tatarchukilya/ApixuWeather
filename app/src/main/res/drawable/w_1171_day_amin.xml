@@ -1,0 +1,185 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:aapt="http://schemas.android.com/aapt"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="128"
+            android:viewportHeight="128">
+
+            <group android:name="drop_1">
+                <path
+                    android:fillColor="#FF22A0EF"
+                    android:pathData="M30.81,39.13C25.21,44.59 15.88,61.32 25,63.79S33.51,46.34 30.81,39.13Z" />
+            </group>
+            <group android:name="drop_2">
+                <path
+                    android:fillColor="#FF22A0EF"
+                    android:pathData="M49.68,39.13c-5.6,5.46 -14.93,22.19 -5.81,24.66S52.38,46.34 49.68,39.13Z" />
+            </group>
+            <group android:name="drop_3">
+                <path
+                    android:fillColor="#FF22A0EF"
+                    android:pathData="M69.42,39.13c-5.6,5.46 -14.94,22.19 -5.82,24.66S72.11,46.34 69.42,39.13Z" />
+            </group>
+            <group android:name="drop_4">
+                <path
+                    android:fillColor="#FF22A0EF"
+                    android:pathData="M88.68,39.13c-5.6,5.46 -14.93,22.19 -5.81,24.66S91.38,46.34 88.68,39.13Z" />
+            </group>
+            <group android:name="drop_5">
+                <path
+                    android:fillColor="#FF22A0EF"
+                    android:pathData="M107,40.69c-5.6,5.45 -14.93,22.18 -5.81,24.65S109.73,47.9 107,40.69Z" />
+            </group>
+            <path
+                android:fillColor="#FFC6C6C6"
+                android:pathData="M22.54,64.76c4.05,1.06 9.35,0 9.35,0 2.4,4.16 10.32,6.93 15.85,6.93 9,0 18.24,-2.94 20.37,-6.93 0,0 37.31,2.93 45.05,0 11.27,-4.27 7.77,-17.62 0.27,-22.13S96.1,41.3 96.1,41.3s0,-9.19 -10.63,-13.58S65.9,33 65.9,33 59.14,14.11 40.13,16.51 21.74,34.9 21.74,34.9C14,36.2 7.62,42.87 7.62,49.83S15.74,63 22.54,64.76Z" />
+        </vector>
+    </aapt:attr>
+    <target android:name="drop_1">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:valueFrom="0"
+                    android:valueTo="105"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+
+    <target android:name="drop_2">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:startOffset="600"
+                    android:valueFrom="0"
+                    android:valueTo="105"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:startOffset="600"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="drop_3">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:startOffset="200"
+                    android:valueFrom="0"
+                    android:valueTo="105"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:startOffset="200"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="drop_4">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:startOffset="800"
+                    android:valueFrom="0"
+                    android:valueTo="105"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:startOffset="800"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="drop_5">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:startOffset="400"
+                    android:valueFrom="0"
+                    android:valueTo="105"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="1000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:startOffset="400"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

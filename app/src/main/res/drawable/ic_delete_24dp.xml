@@ -1,0 +1,91 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            android:width="30dp"
+            android:height="30dp"
+            android:viewportWidth="30"
+            android:viewportHeight="30">
+
+            <group android:name="cap_group">
+                <path
+                    android:name="cap_path"
+                    android:fillColor="#FFFFFFFF"
+                    android:pathData="M22,7L18.5,7l-1,-1h-5l-1,1L8,7L8,9L22,9Z" />
+            </group>
+
+            <group android:name="tank_group">
+                <path
+                    android:name="tank_path"
+                    android:fillColor="#FFFFFFFF"
+                    android:pathData="M9,22a2,2 0,0 0,2 2h8a2,2 0,0 0,2 -2L21,10L9,10Z" />
+            </group>
+        </vector>
+    </aapt:attr>
+    <target android:name="cap_group">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="200"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:valueFrom="0"
+                    android:valueTo="-1.5"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="200"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:valueFrom="-1.5"
+                    android:startOffset="250"
+                    android:valueTo="0"
+                    android:valueType="floatType" />
+
+                <objectAnimator
+                    android:duration="0"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="pivotX"
+                    android:valueFrom="15"
+                    android:valueTo="15"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="0"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="pivotY"
+                    android:valueFrom="7.5"
+                    android:valueTo="7.5"
+                    android:valueType="floatType"/>
+                <objectAnimator
+                    android:duration="400"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="rotation"
+                    android:repeatMode="reverse"
+                    android:valueFrom="0"
+                    android:valueTo="360"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="tank_group">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="200"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:valueFrom="0"
+                    android:valueTo="6.5"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="200"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:valueFrom="6.5"
+                    android:startOffset="200"
+                    android:valueTo="0"
+                    android:valueType="floatType" />
+
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>

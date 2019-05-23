@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:editTextColor">@android:color/white</item>
+        <item name="android:textColorHint">@color/colorSecondaryText</item>
+
+    </style>
+
+    <style name="Base.Widget.AppCompat.SearchView.City">
+        <item name="android:hint">@string/search</item>
+        <item name="searchHintIcon">@drawable/ic_search_hint_24dp</item>
+        <item name="closeIcon">@drawable/places_ic_clear</item>
+        <item name="searchIcon">@drawable/ic_search_24dp</item>
+        <item name="submitBackground">@color/transparent</item>
+        <item name="queryBackground">@color/transparent</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+</resources>

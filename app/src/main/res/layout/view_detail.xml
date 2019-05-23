@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="108dp"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:orientation="vertical">
+
+    <include layout="@layout/view_wind"
+        android:layout_height="36dp"
+        android:layout_width="wrap_content"/>
+
+    <include layout="@layout/view_pressure"
+        android:layout_height="36dp"
+        android:layout_width="wrap_content"/>
+
+    <include layout="@layout/view_humidity"
+        android:layout_gravity="bottom"
+        android:layout_height="36dp"
+        android:layout_width="wrap_content" />
+
+</LinearLayout>

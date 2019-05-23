@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/temperature_settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border_bottom"
+        android:text="@string/temperature" />
+
+    <RadioGroup
+        android:id="@+id/temperature_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp">
+
+        <RadioButton
+            android:id="@+id/fahrenheit"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="F°" />
+
+        <RadioButton
+            android:id="@+id/celsius"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:text="C°"
+            android:textSize="18sp" />
+    </RadioGroup>
+</LinearLayout>

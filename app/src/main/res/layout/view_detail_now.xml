@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="108dp"
+    android:background="@color/colorPrimaryDark"
+    android:elevation="8dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <include layout="@layout/view_wind"/>
+
+    <ImageView
+        android:id="@+id/pressure_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_above="@+id/humidity_icon"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="22dp"
+        app:srcCompat="@drawable/ic_pressure" />
+
+    <ImageView
+        android:id="@+id/humidity_icon"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        app:srcCompat="@drawable/ic_humidity" />
+
+
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pressure_icon"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toEndOf="@+id/pressure_icon"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        tools:text="766" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/humidity_icon"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toEndOf="@+id/humidity_icon"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        tools:text="100%" />
+
+
+
+    <TextView
+        android:id="@+id/pressure_units"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pressure_icon"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="-2dp"
+        android:layout_toEndOf="@+id/pressure"
+        android:textColor="@color/colorSecondaryText"
+        tools:text="мм. рт. ст." />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Погода</string>
+
+    <string name="hPa">гПа</string>
+    <string name="Ms">м/с</string>
+    <string name="Kph">км/ч</string>
+    <string name="Mph">миль/час</string>
+    <string name="inHg">дюйм рт. ст.</string>
+    <string name="mmHg">мм рт. cт.</string>
+    <string name="today">Сегодня</string>
+    <string name="tomorrow">Завтра</string>
+    <string name="no_data">Нет данных</string>
+    <string name="feels_like">Ощущается как</string>
+    <string name="calm">Штиль</string>
+    <string name="north">C</string>
+    <string name="west">З</string>
+    <string name="east">В</string>
+    <string name="south">Ю</string>
+    <string name="northwest">СЗ</string>
+    <string name="northeast">СВ</string>
+    <string name="southeast">ЮВ</string>
+    <string name="southwest">ЮЗ</string>
+    <string name="current_location">Текущее местоположение</string>
+    <string name="failed_update_no_connection">Не удалось получить данные, приверьте подключение к сети</string>
+    <string name="failed_update">Не удалось обновить данные</string>
+    <string name="delete">Удалить</string>
+    <string name="temperature">Температура</string>
+    <string name="wind">Ветер</string>
+    <string name="humidity">Влажность</string>
+    <string name="pressure">Давление</string>
+    <string name="morning">Утро</string>
+    <string name="afternoon">День</string>
+    <string name="evening">Вечер</string>
+    <string name="night">Ночь</string>
+    <string name="forecast_for_10_days">Прогноз на 10 дней</string>
+    <string name="unknown_error">Неизвестная ошибка</string>
+    <string name="failed_geo">Не удалось загруить геоданныe</string>
+    <string name="failed_apixu">Не удалось получить данные от Apixu</string>
+    <string name="no_network_connection">Нет подключения к сети</string>
+    <string name="sunset">Закат</string>
+    <string name="sunrise">Восход</string>
+    <string name="settings">Настройки</string>
+    <string name="search">Поиск</string>
+    <string name="wind_speed">Сила ветра</string>
+    <string name="settings_notification_title">Погода на панели уведомлений</string>
+    <string name="hourly_long_press">Долгое нажатие на прогнозе по часам для просмотра деталей</string>
+</resources>

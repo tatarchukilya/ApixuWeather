@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/pressure_settings_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/border_bottom"
+        android:text="@string/pressure" />
+
+    <RadioGroup
+        android:id="@+id/pressure_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/mmHH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mmHg"
+            android:textSize="18sp"
+            tools:text="дюйм рт. ст." />
+
+        <RadioButton
+            android:id="@+id/hPa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hPa"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/inHg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/inHg"
+            android:textSize="18sp" />
+    </RadioGroup>
+</LinearLayout>

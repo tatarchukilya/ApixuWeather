@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/float_view"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/round_corner"
+    android:elevation="8dp"
+    tools:targetApi="lollipop">
+
+    <ImageView
+        android:id="@+id/float_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/w_1063_night_static" />
+
+    <TextView
+        android:id="@+id/float_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:maxLines="5"
+        android:paddingStart="4dp"
+        android:paddingEnd="4dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/float_icon"
+        tools:text="Облачно c прояснениями" />
+
+    <ImageView
+        android:id="@+id/temp_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/float_description"
+        app:srcCompat="@drawable/ic_temp" />
+
+    <TextView
+        android:id="@+id/temp_float"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/temp_icon"
+        app:layout_constraintStart_toEndOf="@+id/temp_icon"
+        app:layout_constraintTop_toTopOf="@+id/temp_icon"
+        tools:text="+150°" />
+
+    <ImageView
+        android:id="@+id/wind_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/temp_icon"
+        app:srcCompat="@drawable/ic_wind" />
+
+    <TextView
+        android:id="@+id/wind_speed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/wind_icon"
+        app:layout_constraintStart_toEndOf="@+id/wind_icon"
+        app:layout_constraintTop_toTopOf="@+id/wind_icon"
+        tools:text="5" />
+
+    <TextView
+        android:id="@+id/wind_speed_units"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/wind_icon"
+        app:layout_constraintStart_toEndOf="@+id/wind_speed"
+        app:layout_constraintTop_toTopOf="@+id/wind_icon"
+        tools:text="m/c" />
+
+    <TextView
+        android:id="@id/wind_direction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/wind_icon"
+        app:layout_constraintStart_toEndOf="@+id/wind_speed_units"
+        app:layout_constraintTop_toTopOf="@+id/wind_icon"
+        tools:text="NW" />
+
+    <ImageView
+        android:id="@+id/pressure_icon"
+        android:layout_width="24sp"
+        android:layout_height="24sp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/wind_icon"
+        app:srcCompat="@drawable/ic_pressure" />
+
+    <TextView
+        android:id="@+id/pressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/pressure_icon"
+        app:layout_constraintStart_toEndOf="@+id/pressure_icon"
+        app:layout_constraintTop_toTopOf="@+id/pressure_icon"
+        tools:text="760" />
+
+    <TextView
+        android:id="@+id/pressure_units"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintBottom_toBottomOf="@+id/pressure_icon"
+        app:layout_constraintStart_toEndOf="@+id/pressure"
+        app:layout_constraintTop_toTopOf="@+id/pressure_icon"
+        tools:text="@string/mmHg" />
+
+    <ImageView
+        android:id="@+id/humidity_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pressure_icon"
+        app:srcCompat="@drawable/ic_humidity" />
+
+    <TextView
+        android:id="@+id/humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/humidity_icon"
+        app:layout_constraintStart_toEndOf="@+id/humidity_icon"
+        app:layout_constraintTop_toTopOf="@+id/humidity_icon"
+        tools:text="100%" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

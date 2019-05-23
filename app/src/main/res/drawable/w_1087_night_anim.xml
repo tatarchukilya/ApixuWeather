@@ -1,0 +1,49 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:aapt="http://schemas.android.com/aapt"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="128"
+            android:viewportHeight="128">
+            <path
+                android:fillColor="#FFE0D9B5"
+                android:pathData="M57.39,7.14A42.66,42.66 0,0 0,15.54 41.56C23.07,34.81 33.36,30.06 44,29.8a52.85,52.85 0,0 1,11.36 1.13A42.8,42.8 0,0 1,75.48 11.17a42.57,42.57 0,0 0,-18.09 -4Z" />
+            <path
+                android:name="cloud"
+                android:fillColor="#FF787878"
+                android:pathData="M44.13,35.39C20.19,36 -7.77,68 26.54,73.74c2.4,4.16 10.33,6.93 15.86,6.93 9,0 24.62,-2.93 26.75,-6.93 0,0 37.3,2.93 45,0 11.27,-4.27 7.77,-17.61 0.27,-22.12s-17.32,-1.33 -17.32,-1.33 0,-9.21 -10.63,-13.6S67,42 67,42C62.47,37.15 50.23,35.24 44.13,35.39Z" />
+            <path
+                android:name="lightning"
+                android:fillColor="#FFFFEA31"
+                android:pathData="M75.81,79.07l-1.33,23.72 12,-2.4 -9.32,20.79L100.6,95.33 85.67,93.46l12.4,-13.32C91,80.14 85.46,79.6 75.81,79.07Z" />
+        </vector>
+    </aapt:attr>
+    <target android:name="lightning">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:name="color"
+                android:duration="2000"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:propertyName="fillAlpha"
+                android:repeatCount="infinite"
+                android:valueFrom="1"
+                android:valueTo="0"
+                android:valueType="floatType" />
+        </aapt:attr>
+    </target>
+    <target android:name="cloud">
+        <aapt:attr name="android:animation">
+            <objectAnimator
+                android:name="color"
+                android:duration="2000"
+                android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                android:propertyName="fillColor"
+                android:repeatCount="infinite"
+                android:valueFrom="#FFC6C6C6"
+                android:valueTo="#FF787878"
+                android:valueType="colorType" />
+        </aapt:attr>
+    </target>
+</animated-vector>

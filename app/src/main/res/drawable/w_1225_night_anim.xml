@@ -1,0 +1,219 @@
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt">
+    <aapt:attr name="android:drawable">
+        <vector xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:aapt="http://schemas.android.com/aapt"
+            android:width="24dp"
+            android:height="24dp"
+            android:viewportWidth="128"
+            android:viewportHeight="128">
+            <group android:name="snowflake_1">
+                <path
+                    android:fillColor="#FFFFFFFF"
+                    android:pathData="M36.73,42.44a0.65,0.65 0,0 0,-0.43 0.66v2L34.52,44a0.65,0.65 0,0 0,-0.84 1l0.15,0.09 2.47,1.57v3.62l-3.16,-1.78L33,45.53a0.66,0.66 0,0 0,-0.66 -0.64l-0.13,0a0.65,0.65 0,0 0,-0.5 0.65l0.1,2.13 -1.75,-1a0.65,0.65 0,0 0,-0.66 1.12h0l1.75,1 -1.87,1a0.65,0.65 0,0 0,0.59 1.16l2.63,-1.34 3.12,1.81 -3.16,1.78 -2.59,-1.31A0.64,0.64 0,0 0,29 52a0.65,0.65 0,0 0,0.08 0.91,0.55 0.55,0 0,0 0.24,0.12l1.84,1 -1.72,1a0.66,0.66 0,0 0,0.66 1.13l1.75,-1 -0.1,2.12a0.66,0.66 0,0 0,0.52 0.76,0.65 0.65,0 0,0 0.76,-0.51 0.81,0.81 0,0 0,0 -0.22l0.12,-2.94 3.16,-1.78v3.63l-2.47,1.56a0.65,0.65 0,0 0,0.54 1.19l0.15,-0.1 1.78,-1.12v2a0.65,0.65 0,0 0,1.28 0v-2l1.81,1.12a0.65,0.65 0,1 0,0.83 -1,0.67 0.67,0 0,0 -0.14,-0.09l-2.5,-1.56V52.5l3.12,1.81 0.16,2.94a0.66,0.66 0,0 0,0.76 0.52,0.67 0.67,0 0,0 0.52,-0.55l-0.09,-2.12 1.72,1a0.65,0.65 0,0 0,0.9 -0.22,0.66 0.66,0 0,0 -0.22,-0.91L42.7,54l1.88,-1a0.65,0.65 0,0 0,-0.36 -1.25,0.7 0.7,0 0,0 -0.24,0.13l-2.59,1.31L38.2,51.41l3.16,-1.81L44,50.94a0.65,0.65 0,0 0,0.6 -1.16l-1.91,-1 1.78,-1a0.66,0.66 0,1 0,-0.68 -1.12l-1.72,1 0.09,-2.13a0.64,0.64 0,0 0,-0.62 -0.67,0.58 0.58,0 0,0 -0.19,0 0.64,0.64 0,0 0,-0.47 0.62l-0.16,2.94 -3.12,1.78V46.63l2.5,-1.57a0.65,0.65 0,0 0,-0.54 -1.18,0.38 0.38,0 0,0 -0.15,0.09L37.58,45.1v-2a0.66,0.66 0,0 0,-0.64 -0.66h-0.21Z" />
+            </group>
+            <group android:name="snowflake_2">
+                <path
+                    android:fillColor="#FFFFFFFF"
+                    android:pathData="M36.84,39.37l-0.09,0a0.87,0.87 0,0 0,-0.69 0.87V43l-2.37,-1.53a0.87,0.87 0,1 0,-0.94 1.47h0L36.06,45v4.88l-4.22,-2.44 -0.12,-3.94a0.88,0.88 0,0 0,-0.9 -0.84l-0.2,0a0.87,0.87 0,0 0,-0.65 0.88l0.09,2.84 -2.28,-1.34a0.86,0.86 0,0 0,-0.91 1.47l0,0 2.31,1.34 -2.5,1.28a0.87,0.87 0,1 0,0.78 1.56L31,48.93l4.22,2.41L31,53.77 27.5,52a0.87,0.87 0,0 0,-1.21 0.21,0.86 0.86,0 0,0 0.21,1.21 0.57,0.57 0,0 0,0.22 0.11l2.5,1.32 -2.31,1.31a0.88,0.88 0,0 0,0.87 1.53l2.28,-1.31L30,59.12a0.88,0.88 0,0 0,1.75 0.1h0l0.12,-3.9 4.22,-2.44v4.84l-3.31,2.13a0.87,0.87 0,1 0,0.71 1.58,0.65 0.65,0 0,0 0.23,-0.15l2.37,-1.53v2.69a0.88,0.88 0,1 0,1.75 0V59.74l2.41,1.53a0.86,0.86 0,0 0,0.9 -1.43l-3.31,-2.13V52.87L42,55.31l0.13,3.9a0.86,0.86 0,0 0,0.92 0.83,0.88 0.88,0 0,0 0.83,-0.92h0l-0.1,-2.78 2.28,1.31a0.89,0.89 0,0 0,1.21 -0.33,0.88 0.88,0 0,0 -0.33,-1.2l-2.31,-1.31 2.5,-1.32a0.87,0.87 0,1 0,-0.56 -1.64,1 1,0 0,0 -0.23,0.11l-3.46,1.81 -4.22,-2.43 4.22,-2.41 3.46,1.81a0.87,0.87 0,1 0,0.79 -1.56l-2.5,-1.28L47,46.56A0.87,0.87 0,0 0,46.13 45l0,0L43.81,46.4l0.1,-2.84a0.88,0.88 0,0 0,-0.8 -0.94h0a0.86,0.86 0,0 0,-0.9 0.83v0L42,47.43l-4.22,2.44V45l3.31,-2.09a0.87,0.87 0,0 0,-0.73 -1.58l-0.17,0.11L37.81,43V40.27a0.87,0.87 0,0 0,-0.82 -0.91Z" />
+            </group>
+            <group android:name="snowflake_3">
+                <path
+                    android:fillColor="#FFFFFFFF"
+                    android:pathData="M63.8,42.37a0.65,0.65 0,0 0,-0.5 0.69v2l-1.78,-1.13A0.65,0.65 0,1 0,60.8 45h0l2.5,1.57v3.62L60.18,48.4l-0.13,-2.94a0.66,0.66 0,1 0,-1.31 0.06l0.12,2.13 -1.75,-1a0.64,0.64 0,0 0,-0.91 0.05,0.65 0.65,0 0,0 0,0.92 0.72,0.72 0,0 0,0.21 0.12l1.72,1 -1.85,1A0.65,0.65 0,0 0,56.69 51a0.68,0.68 0,0 0,0.24 -0.12l2.59,-1.35 3.16,1.82 -3.16,1.81 -2.59,-1.34a0.66,0.66 0,0 0,-0.92 0.08,0.65 0.65,0 0,0 0.09,0.92 0.72,0.72 0,0 0,0.23 0.12l1.85,1 -1.72,1a0.66,0.66 0,0 0,0.65 1.16l1.75,-1 -0.12,2.12a0.66,0.66 0,0 0,1.31 0h0l0.13,-2.94 3.12,-1.81v3.66l-2.5,1.56a0.67,0.67 0,0 0,-0.19 0.91,0.66 0.66,0 0,0 0.91,0.18h0l1.78,-1.12v2a0.66,0.66 0,0 0,0.66 0.65,0.65 0.65,0 0,0 0.65,-0.65v-2l1.79,1.12a0.64,0.64 0,0 0,0.91 -0.08,0.66 0.66,0 0,0 -0.08,-0.92 0.6,0.6 0,0 0,-0.15 -0.09l-2.47,-1.56V52.43l3.13,1.84 0.12,2.94a0.66,0.66 0,0 0,1.32 0l-0.1,-2.12 1.72,1a0.68,0.68 0,0 0,0.91 -0.25,0.67 0.67,0 0,0 -0.25,-0.91l-1.72,-1 1.87,-1a0.65,0.65 0,1 0,-0.36 -1.25,0.76 0.76,0 0,0 -0.23,0.13l-2.66,1.34 -3.12,-1.81 3.12,-1.78L71,50.87a0.64,0.64 0,0 0,0.91 -0.09,0.65 0.65,0 0,0 -0.08,-0.91 0.7,0.7 0,0 0,-0.24 -0.13l-1.9,-1 1.75,-1A0.65,0.65 0,0 0,71 46.52a0.57,0.57 0,0 0,-0.21 0.13l-1.72,1 0.1,-2.13a0.66,0.66 0,0 0,-0.58 -0.71,0.63 0.63,0 0,0 -0.27,0 0.64,0.64 0,0 0,-0.47 0.62l-0.12,2.94 -3.13,1.81V46.59L67.08,45a0.65,0.65 0,1 0,-0.54 -1.18,0.42 0.42,0 0,0 -0.14,0.09l-1.79,1.13v-2a0.65,0.65 0,0 0,-0.61 -0.69h-0.2Z" />
+            </group>
+            <group android:name="snowflake_5">
+                <path
+                    android:fillColor="#FFFFFFFF"
+                    android:pathData="M90.6,41.84a0.66,0.66 0,0 0,-0.53 0.66v2l-1.75,-1.13a0.66,0.66 0,0 0,-0.91 0.19,0.67 0.67,0 0,0 0.19,0.91L90.07,46v3.66L87,47.87l-0.13,-2.93a0.65,0.65 0,0 0,-0.65 -0.65l-0.16,0a0.66,0.66 0,0 0,-0.5 0.66l0.09,2.15 -1.72,-1a0.65,0.65 0,0 0,-0.92 0,0.66 0.66,0 0,0 0,0.92 0.71,0.71 0,0 0,0.28 0.16l1.72,1 -1.91,1a0.65,0.65 0,0 0,0.47 1.21,0.51 0.51,0 0,0 0.16,-0.09L86.32,49l3.13,1.81 -3.13,1.78L83.7,51.28a0.65,0.65 0,1 0,-0.78 1l0.15,0.08 1.88,1 -1.69,1a0.65,0.65 0,0 0,0.47 1.21l0.15,-0.08 1.72,-1 -0.09,2.12a0.66,0.66 0,1 0,1.31 0.07L87,53.75l3.12,-1.81v3.62L87.6,57.12a0.67,0.67 0,0 0,-0.2 0.93,0.66 0.66,0 0,0 0.92,0.2l1.75,-1.16v2a0.66,0.66 0,1 0,1.31 0v-2l1.78,1.16a0.67,0.67 0,0 0,0.93 -0.2,0.69 0.69,0 0,0 -0.21,-0.93h0l-2.5,-1.56V51.9l3.13,1.85 0.12,2.94a0.66,0.66 0,0 0,0.69 0.62,0.67 0.67,0 0,0 0.63,-0.69l-0.1,-2.12 1.72,1a0.66,0.66 0,1 0,0.69 -1.13h0l-1.72,-1 1.84,-1a0.65,0.65 0,0 0,0.45 -0.8,0.65 0.65,0 0,0 -0.81,-0.44 0.57,0.57 0,0 0,-0.23 0.12l-2.63,1.31L92,50.81 95.16,49l2.63,1.34a0.64,0.64 0,0 0,0.91 -0.09,0.65 0.65,0 0,0 -0.08,-0.91 0.55,0.55 0,0 0,-0.24 -0.12l-1.87,-1 1.75,-1a0.65,0.65 0,0 0,-0.58 -1.17l-0.11,0.07 -1.72,1L96,45a0.66,0.66 0,0 0,-0.63 -0.68,0.65 0.65,0 0,0 -0.19,0 0.66,0.66 0,0 0,-0.5 0.63l-0.12,2.93 -3.13,1.82V46l2.5,-1.56a0.65,0.65 0,0 0,0.19 -0.91,0.66 0.66,0 0,0 -0.91,-0.19L91.38,44.5v-2a0.65,0.65 0,0 0,-0.62 -0.66H90.6Z" />
+            </group>
+            <group android:name="snowflake_4">
+                <path
+                    android:fillColor="#FFFFFF"
+                    android:pathData="M64,39.37l-0.09,0h-0.09a0.86,0.86 0,0 0,-0.69 0.87V43l-2.41,-1.53a0.87,0.87 0,0 0,-1.08 1.36,1.08 1.08,0 0,0 0.18,0.11L63.1,45v4.88l-4.19,-2.41 -0.16,-4a0.86,0.86 0,0 0,-0.88 -0.85h-0.12a0.86,0.86 0,0 0,-0.75 0.93l0.1,2.79 -2.28,-1.32a0.89,0.89 0,0 0,-1.21 0.33,0.88 0.88,0 0,0 0.33,1.2l2.31,1.35 -2.5,1.28a0.87,0.87 0,0 0,0.56 1.64,0.7 0.7,0 0,0 0.23,-0.11L58,49l4.18,2.37L58,53.77 54.54,52a0.87,0.87 0,1 0,-1 1.42,1.13 1.13,0 0,0 0.22,0.11l2.5,1.28 -2.31,1.35a0.87,0.87 0,1 0,0.84 1.52l0,0L57.1,56.3 57,59.15a0.88,0.88 0,0 0,0.85 0.9,0.86 0.86,0 0,0 0.9,-0.84l0.16,-3.94 4.19,-2.44v4.88L59.79,59.8a0.87,0.87 0,0 0,0.73 1.58l0.17,-0.11 2.41,-1.53v2.69a0.88,0.88 0,0 0,1.75 0V59.74l2.37,1.53a0.87,0.87 0,1 0,0.94 -1.47h0l-3.31,-2.09V52.83l4.22,2.44 0.12,3.94a0.88,0.88 0,0 0,0.91 0.84,0.86 0.86,0 0,0 0.84,-0.9h0l-0.09,-2.85 2.28,1.35a0.88,0.88 0,0 0,1.2 -0.29A0.87,0.87 0,0 0,74 56.17l0,0L71.69,54.8l2.5,-1.28a0.87,0.87 0,1 0,-0.56 -1.64,0.65 0.65,0 0,0 -0.22,0.11l-3.47,1.78 -4.25,-2.4L69.94,49l3.47,1.78a0.87,0.87 0,0 0,1.21 -0.21,0.86 0.86,0 0,0 -0.21,-1.21 0.76,0.76 0,0 0,-0.22 -0.11l-2.5,-1.28L74,46.58a0.88,0.88 0,1 0,-0.87 -1.53l-2.28,1.32 0.09,-2.79a0.86,0.86 0,0 0,-0.78 -0.94,0.81 0.81,0 0,0 -0.22,0 0.86,0.86 0,0 0,-0.75 0.84l-0.12,3.94 -4.22,2.4V45l3.31,-2.09a0.87,0.87 0,1 0,-0.94 -1.47h0L64.85,43V40.27a0.86,0.86 0,0 0,-0.83 -0.9Z" />
+            </group>
+            <group android:name="snowflake_6">
+                <path
+                    android:fillColor="#FFFFFFFF"
+                    android:pathData="M90.75,38.83l-0.09,0h-0.09a0.86,0.86 0,0 0,-0.69 0.87v2.69l-2.41,-1.53a0.86,0.86 0,0 0,-1.22 0.14,0.87 0.87,0 0,0 0.15,1.22l0.17,0.11 3.31,2.09v4.88l-4.19,-2.41 -0.15,-4a0.87,0.87 0,0 0,-0.89 -0.85h-0.11a0.86,0.86 0,0 0,-0.75 0.93l0.09,2.79L81.6,44.51a0.9,0.9 0,0 0,-1.21 0.33,0.88 0.88,0 0,0 0.33,1.2L83,47.39l-2.5,1.28a0.87,0.87 0,0 0,-0.55 1.1,0.86 0.86,0 0,0 1.1,0.54 0.7,0.7 0,0 0,0.23 -0.11l3.5,-1.78L89,50.79l-4.18,2.44 -3.5,-1.78a0.87,0.87 0,0 0,-1 1.42,1 1,0 0,0 0.23,0.11L83,54.26l-2.32,1.35a0.87,0.87 0,0 0,0.84 1.52l0,0 2.28,-1.35 -0.09,2.85a0.86,0.86 0,0 0,0.84 0.9,0.88 0.88,0 0,0 0.91,-0.84l0.15,-3.94 4.19,-2.44v4.88l-3.31,2.09a0.87,0.87 0,0 0,0.73 1.58l0.17,-0.11 2.41,-1.53v2.69a0.88,0.88 0,0 0,1.75 0V59.2L94,60.73a0.87,0.87 0,1 0,0.94 -1.47h0l-3.31,-2.09V52.29l4.22,2.44L96,58.67a0.88,0.88 0,0 0,0.91 0.84,0.86 0.86,0 0,0 0.84,-0.9h0l-0.09,-2.85 2.28,1.35a0.87,0.87 0,1 0,0.91 -1.48l0,0 -2.32,-1.35L101,53a0.87,0.87 0,1 0,-0.56 -1.64,0.76 0.76,0 0,0 -0.22,0.11l-3.47,1.78 -4.25,-2.4 4.25,-2.41 3.47,1.78a0.87,0.87 0,0 0,1 -1.42,1 1,0 0,0 -0.23,-0.11l-2.5,-1.28L100.79,46a0.87,0.87 0,0 0,0.32 -1.2,0.88 0.88,0 0,0 -1.2,-0.33l-2.28,1.32L97.72,43a0.86,0.86 0,0 0,-0.78 -0.94,0.81 0.81,0 0,0 -0.22,0A0.87,0.87 0,0 0,96 43l-0.12,3.94 -4.22,2.4V44.45l3.31,-2.09A0.87,0.87 0,1 0,94 40.89h0l-2.37,1.53V39.73a0.86,0.86 0,0 0,-0.83 -0.9Z" />
+            </group>
+            <path
+                android:fillColor="#FFC6C6C6"
+                android:pathData="M43.56,13.62a25.58,25.58 0,0 0,-3.43 0.2c-19,2.4 -18.39,18.39 -18.39,18.39 -7.77,1.3 -14.12,8 -14.12,14.92s8.12,13.14 14.92,14.93c4.05,1.07 9.36,0 9.36,0C34.31,66.22 42.2,69 47.73,69c9,0 18.26,-2.93 20.39,-6.93 0,0 37.3,2.93 45,0 11.27,-4.27 7.77,-17.61 0.27,-22.12S96.1,38.61 96.1,38.61s0,-9.18 -10.63,-13.56 -19.58,5.29 -19.58,5.29S60,13.72 43.56,13.62Z" />
+        </vector>
+    </aapt:attr>
+    <target android:name="snowflake_1">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:startOffset="0"
+                    android:valueFrom="0"
+                    android:valueTo="90"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:startOffset="0"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="snowflake_2">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:startOffset="999"
+                    android:valueFrom="0"
+                    android:valueTo="90"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:startOffset="999"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="snowflake_5">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:startOffset="1332"
+                    android:valueFrom="0"
+                    android:valueTo="90"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:startOffset="1332"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="snowflake_6">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:startOffset="333"
+                    android:valueFrom="0"
+                    android:valueTo="90"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:startOffset="333"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="snowflake_3">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:startOffset="666"
+                    android:valueFrom="0"
+                    android:valueTo="90"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:startOffset="666"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+    <target android:name="snowflake_4">
+        <aapt:attr name="android:animation">
+            <set android:ordering="together">
+                <objectAnimator
+                    android:duration="0"
+                    android:propertyName="translateX"
+                    android:valueFrom="0"
+                    android:valueTo="0" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateY"
+                    android:repeatCount="infinite"
+                    android:startOffset="1665"
+                    android:valueFrom="0"
+                    android:valueTo="90"
+                    android:valueType="floatType" />
+                <objectAnimator
+                    android:duration="2000"
+                    android:interpolator="@android:anim/accelerate_decelerate_interpolator"
+                    android:propertyName="translateX"
+                    android:repeatCount="infinite"
+                    android:startOffset="1665"
+                    android:valueFrom="0"
+                    android:valueTo="-10"
+                    android:valueType="floatType" />
+            </set>
+        </aapt:attr>
+    </target>
+</animated-vector>
