@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class MapsRequest extends BaseRequest {
 
-    private final static String mKey = "AIzaSyCTl9bkuTgfolWHFzJR_V1SDrzHDxU_cL8";
+    private final static String mKey = "key";
     private final static String InvalideKey = "AIzaSyCTl9bkuTgfolWHFzJR_V1SDrzHDxU";
     private final String mLang;
 
