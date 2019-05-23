@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class ApixuRequest extends BaseRequest {
 
-    private final static String sKey = "570631cf9b0c4393bce74848182112";
+    private final static String sKey = "key";
     private final static String TempKey = "570631cf9b0c4393bce7484818211";
     private final static String sCount = "11";
     private final String mLatLng;
